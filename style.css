@@ -4,3 +4,93 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  body{
+      display:flex;
+      flex-direction: column;
+
+  }
+  .area-one{
+      background-color: #1F2937;
+      display: flex;
+      flex-direction: column;
+      padding: 16px 48px 32px 48px;
+  }
+  .header{
+      font-size: 24px;
+      color: #F9FAF8;
+      display: flex;
+      justify-content: space-around;
+      padding-left: 60px;
+      padding-right: 60px;
+  }
+.header-left{
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+  ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+  a{
+    color: #666;
+    text-decoration: none;
+  }
+  .area-one-container{
+      display: flex;
+      justify-content: space-around;
+  }
+  .area-one-text{
+    max-width: 500px;
+  }
+  .hero-text{
+      font-size: 48px;
+      font-weight: bolder;
+      color: #F9FAF8;
+  }
+  .hero-subtext{
+     font-size: 18px;
+     color: #E5E7EB; 
+  }
+  button{
+    background-color: #3882f6;
+    color: white;
+  }
+  .placeholder-img{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+  }
+  .area-two{
+    text-align: center;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  .container img
+  {
+    display: block;
+    width: 100px;
+    height: 100px;
+
+    border: #3882f6 solid 5px;
+    border-radius: 10px;
+  }
+  .blurb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .area-three{
+      background-color: #E5E7EB;
+      font-size: 36px;
+      font-style: italic;
+      color: #1f2937;
+  }
