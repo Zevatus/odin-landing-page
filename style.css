@@ -46,7 +46,8 @@ a{
 .area-one-container{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    align-items: center;
+    gap: 200px;
 }
 .area-one-text{
   max-width: 500px;
@@ -63,8 +64,11 @@ a{
 button{
   background-color: #3882f6;
   color: white;
-  padding: 8px 16px;
+  padding: 10px 22px;
   border-radius: 8px;
+  border: none; 
+  font-size: 16px;
+  font-weight: bold;
 }
 .placeholder-img{
   width: 300px;
